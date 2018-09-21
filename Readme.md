@@ -3,15 +3,15 @@
 ## Cliff Notes
 
 <pre>
-git clone <repo>
-cd <repo>
-git checkout -b <branch-name>
+git clone &lt; repo &gt;
+cd &lt; repo &gt;
+git checkout -b &lt; branch-name &gt;`
 git branch  (to see you're now working in the newly created branch)
-git add <file names>
-git commit -m <message>
-git push -u origin <branch-name>
+git add &lt; file names &gt; 
+git commit -m "message"
+git push -u origin &lt; branch-name &gt; 
 from GitHub, go to main repo and select your branch from pulldown menu
-click button `Compare & pull request` and add reviewers
+click button "Compare & pull request" and add reviewers
 </pre>
 
 ## What is a Pull Request?
