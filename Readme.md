@@ -1,6 +1,8 @@
 # Pull Request Tutorial
 
 ## Cliff Notes
+
+<pre>
 git clone <repo>
 cd <repo>
 git checkout -b <branch-name>
@@ -10,6 +12,7 @@ git commit -m <message>
 git push -u origin <branch-name>
 from GitHub, go to main repo and select your branch from pulldown menu
 click button `Compare & pull request` and add reviewers
+</pre>
 
 ## What is a Pull Request?
 From Github's [Using Pull Requests Page](https://help.github.com/articles/using-pull-requests)
