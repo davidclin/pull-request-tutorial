@@ -1,5 +1,16 @@
 # Pull Request Tutorial
 
+## Cliff Notes
+git clone <repo>
+cd <repo>
+git checkout -b <branch-name>
+git branch  (to see you're now working in the newly created branch)
+git add <file names>
+git commit -m <message>
+git push -u origin <branch-name>
+from GitHub, go to main repo and select your branch from pulldown menu
+click button `Compare & pull request` and add reviewers
+
 ## What is a Pull Request?
 From Github's [Using Pull Requests Page](https://help.github.com/articles/using-pull-requests)
 > Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
