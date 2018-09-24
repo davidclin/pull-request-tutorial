@@ -16,6 +16,14 @@ from GitHub, go to main repo and select your branch from pulldown menu
 click button "Compare & pull request" and add reviewers
 </pre>
 
+## General Useful Git Command(s)
+<pre>
+git config --list
+more ~/.gitconfig
+git config user.name <username>
+git config user.email <email>
+</pre>
+
 ## What is a Pull Request?
 From Github's [Using Pull Requests Page](https://help.github.com/articles/using-pull-requests)
 > Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
