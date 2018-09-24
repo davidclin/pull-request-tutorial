@@ -9,6 +9,8 @@ git checkout -b &lt; branch-name &gt;`
 git branch  (to see you're now working in the newly created branch)
 git add &lt; file names &gt; 
 git commit -m "message"
+git config user.name &lt; gh/ghe username &gt; (optional and will replace `EC2 Default User` if these procedures are performed from an EC2 instance)
+git config user.email &lt; your-email-address &gt; (optional)
 git push -u origin &lt; branch-name &gt; 
 from GitHub, go to main repo and select your branch from pulldown menu
 click button "Compare & pull request" and add reviewers
