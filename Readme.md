@@ -22,6 +22,9 @@ git config --list
 more ~/.gitconfig
 git config user.name <username>
 git config user.email <email>
+
+git checkout master
+git branch -D <branch name>
 </pre>
 
 ## What is a Pull Request?
