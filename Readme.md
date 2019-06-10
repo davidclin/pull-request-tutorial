@@ -3,6 +3,7 @@
 ## Cliff Notes
 
 <pre>
+fork repo
 git clone &lt; repo &gt;
 cd &lt; repo &gt;
 git checkout -b &lt; branch-name &gt;`
