@@ -17,6 +17,19 @@ from GitHub, go to main repo and select your branch from pulldown menu
 click button "Compare & pull request" and add reviewers
 </pre>
 
+To cleanup, convert your local branch to master and delete the local branch
+<pre>
+from local:
+git checkout master
+git branch -d BRANCH
+git fetch
+git rebase origin master
+
+from remote:
+commit changes to master
+close all pull requests
+</pre>
+
 ## General Useful Git Command(s)
 <pre>
 git config --list
